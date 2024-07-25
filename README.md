@@ -937,8 +937,6 @@ print(f"Success Rate: {success_rate:.2f}%")
 
 </aside>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/33f7fb8b-4aed-4519-9dbe-40e79ad2b724/3e87409b-a53b-4aeb-a053-47c9d55220bc/Untitled.png)
-
 1. **Average Reward** : 초반 에피소드에서 평균 보상은 약 -6.0에서 -7.0, 중반 이후로 평균 보상은 -5.5에서 -6.5 사이에서 변동합니다. 평균 보상이 전반적으로 개선되지 않고, 음수 상태이므로 지뢰를 피하지 못하고 자주 밟고 있다는 것을 알 수 있습니다.
 2. **Average Steps** : 초기 에피소드에서 평균 스텝 수는 약 10에서 시작하여 중반 이후로 평균 스텝 수는 약 40에서 50 사이에서 변동합니다. 최대 스텝 수에 가까워지며 학습이 잘되지 않는 경향을 보입니다.
 3. **Success Rate** : 약 만 번 에피소드가 돌아갔을 때 0.008%로 성공률이 올랐지만, 이후 거의 0에 수렴합니다.
@@ -948,7 +946,6 @@ print(f"Success Rate: {success_rate:.2f}%")
 
 - 5000번 테스트 → Success Rate: 0.00%
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/33f7fb8b-4aed-4519-9dbe-40e79ad2b724/34d3b6b9-67ba-4d6d-baa6-24c884e4415d/Untitled.png)
     
 
 ---
@@ -964,8 +961,6 @@ print(f"Success Rate: {success_rate:.2f}%")
 
 </aside>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/33f7fb8b-4aed-4519-9dbe-40e79ad2b724/97d3300b-d4d7-4b75-935f-c107314a9bd9/Untitled.png)
-
 1. **Average Reward** : 초반 에피소드에서 보상은 약 -10, 이후로 평균 보상은 -30에서 -45 사이에서 변동합니다. 평균 보상이 전반적으로 개선되지 않고, 음수 상태이므로 지뢰를 피하지 못하고 자주 밟고 있다는 것을 알 수 있습니다.
 2. **Average Steps** : 초기 에피소드에서 평균 스텝 수는 약 10에서 시작하여 중반 이후로 평균 스텝 수는 약 40에서 50 사이에서 변동합니다. 최대 스텝 수에 가까워지며 학습이 잘되지 않는 경향을 보입니다.
 3. **Success Rate** : 약 천 번 에피소드가 돌아갔을 때 0.35%로 성공률이 올랐지만, 이후 거의 0에 수렴합니다.
@@ -974,8 +969,6 @@ print(f"Success Rate: {success_rate:.2f}%")
 ### Test2
 
 - 1000번 테스트 → Success Rate: 0.00%
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/33f7fb8b-4aed-4519-9dbe-40e79ad2b724/34d3b6b9-67ba-4d6d-baa6-24c884e4415d/Untitled.png)
     
 
 ⇒ 테스트 시 스텝 수가 71로 실패하거나  한 자릿수에서 지뢰를 누른 경우가 많았습니다. 훈련 시 학습이 제대로 되지 않은 것 같습니다. 
